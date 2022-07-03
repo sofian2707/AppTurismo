@@ -172,3 +172,13 @@ form{
 .unlike:hover{
     color: rgb(118, 8, 8);
 }
+
+
+@media (max-width: 333px) {
+    .texto-encima{
+        top: 60%;
+    }
+    .fav{
+        font-size: 15px;
+    }
+}

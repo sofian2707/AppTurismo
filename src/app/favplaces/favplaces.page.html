@@ -6,13 +6,12 @@
   <div style=" height: 16%;">
     <div class="back" routerLink="/ingreso"><ion-icon name="chevron-back-outline"></ion-icon></div>
     <p class="titleprincipal">Tus lugares favoritos</p>
-  
   </div>
 
  <!--
 template que se muestra si no hay lugares en favoritos
   --> 
-  <ng-template [ngIf]="data.length > 0">
+  <ng-template [ngIf]="data.length > 0" class="lugares">
     <div class="parent">
       <div class="div1" *ngFor="let item of data ">
         <ion-card class="card" (click)="slideClick(item.id)"> 

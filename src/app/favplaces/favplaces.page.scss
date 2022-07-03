@@ -140,7 +140,22 @@ font-size: 17px;
     background-color: #5EDFFF;
 }
 
+@media (max-width: 330px) {
+    .titleprincipal{
+        font-size: 25px;
+    }
+ .parent{
+    margin-top: 26%;
+ }
+ .card{
+    height: 20%;
+ }
 
+ .nothing{
+    margin-top: 30%;
+ }
+
+}
 
 
 
